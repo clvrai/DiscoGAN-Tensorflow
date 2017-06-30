@@ -69,7 +69,7 @@ The models can be simply loaded with a python `pickle` package. And all weights/
 
 Q: How to restore a training?
 
-A: Try `tart-train desc_***.py --continue` (continue from last snapshot) or `tart-train desc_***.py --continue-from 10` (continue from the snapshot for the 10th epoch).
+A: Try `tart-train desc_***.py -d gpu0 --continue` (continue from last snapshot) or `tart-train desc_***.py -d gpu0 --continue-from 10` (continue from the snapshot for the 10th epoch).
 
 Q: How can I use Tensorboard to visualize the training?
 
@@ -78,7 +78,7 @@ An alternative way is to open a tensorboard yourself by find the directory named
 
 Q: How to demonstrate the result for intermediate epochs?
 
-A: All snapshots can be found in the `dump/***/snapshots` directory. You can run the demo with `tart-demo desc_***.py -d gpu0 -e 10` (the 10th snapshot), or `tart-demo desc_***.py -w dump/***/snapshots/***.snapshot.pkl` (custom snapshot file).
+A: All snapshots can be found in the `dump/***/snapshots` directory. You can run the demo with `tart-demo desc_***.py -d gpu0 -e 10` (the 10th snapshot), or `tart-demo desc_***.py -d gpu0 -w dump/***/snapshots/***.snapshot.pkl` (custom snapshot file).
 
 Q: How to run experients based on your code?
 
