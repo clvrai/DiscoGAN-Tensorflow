@@ -13,7 +13,7 @@ The high-level idea is the joint training of two GAN model G1 and G2 in parallel
 Besides the adversarial loss, there is also reconstruction loss to ensure the consistency. 
 Specifically, we restrict that G2(G1(A)) = A and G1(G2(B)) = B.
 
-TODO:: Model image TDB.
+<img src="./assets/model.png" width="80%">
 
 ## Requirements
 
@@ -49,7 +49,9 @@ After the training procedure, demonstrate your result using
 
 ## Results on edges2shoes dataset
 
-TODO:: Result image TBD
+<img src="./assets/edges2shoes.png" width="80%">
+
+**The result shown here is not the final result, but results at an early stage (@epoch 30).**
 
 ## FAQ
 

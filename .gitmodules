@@ -1,0 +1,3 @@
+[submodule "TensorArtist"]
+	path = TensorArtist
+	url = https://github.com/vacancy/TensorArtist
