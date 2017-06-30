@@ -49,7 +49,10 @@ After the training procedure, demonstrate your result using
 
 ## Results on edges2shoes dataset
 
-<img src="./assets/edges2shoes.png" width="80%">
+<img src="./assets/edges2shoes.png" width="100%">
+
+The left part of the image is edges -> shoes mapping (the odd columns are the edges and even columns are the shoes) the right part, 
+while the right part is shoes -> edges mapping.
 
 **The result shown here is not the final result, but results at an early stage (@epoch 30).**
 
