@@ -22,6 +22,8 @@ Specifically, we restrict that G2(G1(A)) = A and G1(G2(B)) = B.
 - [Pillow](https://pillow.readthedocs.io/en/4.0.x/)
 - [tqdm](https://github.com/tqdm/tqdm)
 - [lmdb](https://lmdb.readthedocs.io)
+- [zmq](http://pyzmq.readthedocs.io)
+- opencv
 
 ## Usage
 
@@ -38,6 +40,8 @@ We have included one TensorArtist version in the repo. For simplicity, first set
 This will export some environment variables. In particular, this allows you to run `tart` command.
 
 Download the dataset with the scripts in `dataset-tools` directory. The detail usage is contained inside the README file inside the directory. After downloading the datasets, you need to move the LMDB generated to data/Pix2Pix directory. For `edges2shoes` dataset, put two lmdbs in `data/Pix2Pix/edges2shoes/` directory.
+
+Download the dataset edges2shoes with the script `dataset-tool/gen-lmdb-pair.py`. And the two downloaded folder into the directory `./data/Pix2Pix/edges2shoes`.
 
 For the training, simply run
 
