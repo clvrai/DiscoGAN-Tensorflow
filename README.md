@@ -2,7 +2,7 @@
 
 As part of the implementation series of [Joseph Lim's group at USC](http://csail.mit.edu/~lim), our motivation is to accelerate (or sometimes delay) research in the AI community by promoting open-source projects. To this end, we implement state-of-the-art research papers, and publicly share them with concise reports. Please visit our [group github site](https://github.com/gitlimlab) for other projects.
 
-This project is implemented by [Jiayuan Mao](https://github.com/vacancy).
+This project is implemented by [Jiayuan Mao](https://github.com/vacancy) and reviewed by [Shao-hua Sun](https://github.com/shaohua0116).
 
 ## Descriptions
 
@@ -59,6 +59,10 @@ The left part of the image is edges -> shoes mapping (the odd columns are the ed
 while the right part is shoes -> edges mapping.
 
 **The result shown here is not the final result, but results at an early stage (@epoch 30).**
+
+Demonstration of training losses.
+
+<img src="./assets/loss.png" width="100%">
 
 ## FAQ
 
